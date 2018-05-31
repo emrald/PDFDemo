@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trivedi.pdfdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <meta-data
+        android:name="pspdfkit_license_key"
+        android:value="tHCmVLjjZm724h1X7Qr1EnjVH9bAkl75zPeLUC9FiYimERy6_wnwclH6U_39l8j0q9nQF5tdoMXuy0Zw2_DPCm9fSwUbOhoycXO9LxpeLiqRJl_wDpH3H0vky_mSS2UtfbEZPx3rH4T2XkfEhAjRtBLKkmbsw3mefWoqayJE80l8ic9kEkVayuTPY2ZTpnQsrEo_VSLqhvzJOYbJQnglpS4fGS-0EvlSLGmkjQMSq16ixuzp9Sbp1f6PRrVgmJUjrV0vPat2hqBSwiALuR8UPvtftbkuxtGrCErhsH9Wd_my0YdaS9y2k7TZUUCkr3fmp702yWEveRhv0PmXBmpcQ7vGDSvYq8ZGMZLIgfnTxXctiyhzsgFzE5PbfmCW0lb0W_WTKb6txt5riQixgs9F-C_GGy7xF8f2SvmMXI0FlOl27KEwFe45S049gg2mAhC"/>
+
+
+</manifest>
